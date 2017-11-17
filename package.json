@@ -1,0 +1,24 @@
+{
+  "name": "baseline",
+  "version": "1.0.0",
+  "description": "Baseline is a simple boilerplate for building new projects on [Skel](http://github.com/n33/skel). Features include:",
+  "main": "index.js",
+  "scripts": {
+    "start": "./node_modules/.bin/http-server",
+    "start-static": "./node_modules/.bin/http-server public",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hyeri0609/baseline.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hyeri0609/baseline/issues"
+  },
+  "homepage": "https://github.com/hyeri0609/baseline#readme",
+  "devDependencies": {
+    "http-server": "^0.10.0"
+  }
+}
